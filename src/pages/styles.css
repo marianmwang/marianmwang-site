@@ -1,3 +1,8 @@
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   margin: 1em;
   max-width: 39rem;
@@ -35,7 +40,7 @@ li {
   position: fixed;
   width: 13em;
   border: 0.1rem solid #6c9dda;
-  margin: 0em 1em;
+  margin: 1em;
   background-color: #cbe2ff;
   color: #18375e;
   border-radius: 1em;

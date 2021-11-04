@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/marianmwang-site/static/css/main.eb48828b.chunk.css",
-    "main.js": "/marianmwang-site/static/js/main.ddb0a775.chunk.js",
-    "main.js.map": "/marianmwang-site/static/js/main.ddb0a775.chunk.js.map",
+    "main.js": "/marianmwang-site/static/js/main.0900b84f.chunk.js",
+    "main.js.map": "/marianmwang-site/static/js/main.0900b84f.chunk.js.map",
     "runtime-main.js": "/marianmwang-site/static/js/runtime-main.177d91fe.js",
     "runtime-main.js.map": "/marianmwang-site/static/js/runtime-main.177d91fe.js.map",
     "static/js/2.8393cbf9.chunk.js": "/marianmwang-site/static/js/2.8393cbf9.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.177d91fe.js",
     "static/js/2.8393cbf9.chunk.js",
     "static/css/main.eb48828b.chunk.css",
-    "static/js/main.ddb0a775.chunk.js"
+    "static/js/main.0900b84f.chunk.js"
   ]
 }

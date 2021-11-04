@@ -4,7 +4,7 @@ import "../pages/styles.css";
 
 const Gallery = () => {
   return (
-    <div class="container">
+    <div class="container" id="gallery">
       <h2>
         gallery<br></br>—
       </h2>

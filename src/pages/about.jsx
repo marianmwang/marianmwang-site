@@ -4,15 +4,14 @@ import "../pages/styles.css";
 
 const About = () => {
   return (
-    <div class="container">
+    <div class="container" id="about">
       <h2>
         about me<br></br>—
       </h2>
       <p>
-        hey, i'm marian.<br></br>
-        I'm a Computer Science and Cognitive Science student at the University
-        of Toronto with a passion for software development and design. In my
-        free time, I enjoy watching heist movies, digital art, and eating good
+        i'm a computer science and cognitive science student at the university
+        of toronto with a passion for software development and design. in my
+        free time, i enjoy watching anime and korean dramas, digital art, and eating delicious
         food with friends.
       </p>
     </div>

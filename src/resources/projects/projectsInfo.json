@@ -1,0 +1,23 @@
+{
+    "utccf-website": {
+      "name": "utccf website",
+      "description": "A simple and responsive website for the University of Toronto Chinese Christian Fellowship (UTCCF) using HTML, CSS, and JavaScript.",
+      "links": [
+        {
+          "name": "demo",
+          "url": "https://utccf.com"
+        }
+      ]
+    },
+    "flight-planner": {
+      "name": "flight planner",
+      "description": "A Flight Planner web application in Java that allows users to search for flights between airports.",
+      "links": [
+        {
+          "name": "github",
+          "url": "https://github.com/CSC207-UofT/course-project-kamamans"
+        }
+      ]
+    }
+  }
+  

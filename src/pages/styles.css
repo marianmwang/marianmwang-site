@@ -1,0 +1,94 @@
+.container {
+  margin: 1em;
+  max-width: 39rem;
+  font-family: Calibri;
+  padding: 2em;
+  border-radius: 1em;
+  border: 0.1rem solid #6c9dda;
+  background-color: #cbe2ff;
+  color: #18375e;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 28px;
+  color: #18375e;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p,
+li {
+  font-size: 20px;
+}
+
+.sidenav {
+  position: fixed;
+  width: 13em;
+  border: 0.1rem solid #6c9dda;
+  margin: 0em 1em;
+  background-color: #cbe2ff;
+  color: #18375e;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.content {
+  margin-left: 18em;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  display: inline;
+}
+
+.sidenav-link:before,
+.sidenav-link:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  top: 50%;
+  margin-top: 1px;
+  background: #18375e;
+}
+
+.sidenav-link:before {
+  left: -2.5px;
+}
+.sidenav-link:after {
+  right: 2.5px;
+  background: #18375e;
+  transition: width 1.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.sidenav-link:hover:before {
+  background: #18375e;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.sidenav-link:hover:after {
+  background: transparent;
+  width: 100%;
+}
+
+.sidenav-link:hover:focus {
+  background: transparent;
+  width: 100%;
+}

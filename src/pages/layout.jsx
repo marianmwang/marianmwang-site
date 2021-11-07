@@ -1,7 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+  faPaperPlane,
+  faFile,
+  faChevronDown,
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import "../pages/styles.css";
 
@@ -9,6 +14,19 @@ const Layout = ({ children }) => {
   const scrollToTop = () => {
     scroll.scrollToTop({ duration: 1000 });
   };
+
+  function collapseNavbar() {
+    var navLinks = document.getElementById("collapse-items");
+    var navIcon = document.getElementById("collapse-navbar");
+    if (navLinks.style.display === "none") {
+      navLinks.style.display = "inline";
+      navIcon.style.transform = "rotate(180deg)";
+      navIcon.style.transition = "transform 0.5s";
+    } else {
+      navLinks.style.display = "none";
+      navIcon.style.transform = "rotate(0deg)";
+    }
+  }
 
   return (
     <div className="centered">
@@ -21,6 +39,34 @@ const Layout = ({ children }) => {
           </h1>
         </div>
         <div className="sidenav-section">
+          <ul className="inline-list">
+            <li>
+              <a href="https://drive.google.com/file/d/1RyUoUS1dxxd8SvV8xkZ0FKMLNhwFXgW4/view?usp=sharing">
+                <FontAwesomeIcon icon={faFile} />
+              </a>
+            </li>
+            <li>
+              <a href="mailto:marian.mian.wang@gmail.com">
+                <FontAwesomeIcon icon={faPaperPlane} />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/marianmwang">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </li>
+            <li>
+              <button
+                id="collapse-navbar"
+                className="button-no-style"
+                onClick={collapseNavbar}
+              >
+                <FontAwesomeIcon icon={faChevronDown} />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div className="sidenav-section" id="collapse-items">
           <ul>
             <li>
               <Link
@@ -29,7 +75,7 @@ const Layout = ({ children }) => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
               >
                 <button className="button-no-style">about me</button>
@@ -42,7 +88,7 @@ const Layout = ({ children }) => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
               >
                 <button className="button-no-style">projects</button>
@@ -55,35 +101,11 @@ const Layout = ({ children }) => {
                 to="gallery"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-100}
                 duration={500}
               >
                 <button className="button-no-style">gallery</button>
               </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="sidenav-section">
-          <ul>
-            <li>
-              <a href="https://drive.google.com/file/d/1RyUoUS1dxxd8SvV8xkZ0FKMLNhwFXgW4/view?usp=sharing">
-                <FontAwesomeIcon icon="fas envelope" />
-                resume
-              </a>
-            </li>
-            <li>
-              <a href="mailto:marian.mian.wang@gmail.com">
-                <FontAwesomeIcon icon="fas fa-envelope" />
-                <FontAwesomeIcon icon={"faEnvelope"} />
-                email
-                <i class="fas fa-paper-plane"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/marianmwang">
-                <FontAwesomeIcon icon="fa-brands fa-github" />
-                github
-              </a>
             </li>
           </ul>
         </div>

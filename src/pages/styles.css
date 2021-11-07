@@ -110,10 +110,24 @@ a {
   text-align: inherit;
 }
 
+.inline-list > li, .inline-list {
+  display: inline;
+  margin: 0 0.5em 0 0.5em;
+  padding-inline-start: 0;
+}
+
+ul {
+  padding-inline-start: 1em;
+  margin-block-end: 0;
+}
+
+#collapse-navbar {
+  display: none;
+}
+
 @media screen and (max-width: 60em) {
   .sidenav {
     position: fixed;
-    display: flex;
     width: auto;
     margin-right: 1em;
     max-height: 15em;
@@ -138,4 +152,17 @@ a {
     display: block;
     margin-bottom: 0;
   }
+
+  .sidenav-section:nth-child(2) {
+    margin-top: 1em;
+  }
+
+  #collapse-navbar {
+    display: inline;
+  }
+
+  #collapse-items {
+    display: none;
+  }
+
 }

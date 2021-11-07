@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/marianmwang-site/static/css/main.e2e67417.chunk.css",
-    "main.js": "/marianmwang-site/static/js/main.c252b137.chunk.js",
-    "main.js.map": "/marianmwang-site/static/js/main.c252b137.chunk.js.map",
-    "runtime-main.js": "/marianmwang-site/static/js/runtime-main.efcc3eb5.js",
-    "runtime-main.js.map": "/marianmwang-site/static/js/runtime-main.efcc3eb5.js.map",
-    "static/js/2.6c4a79dc.chunk.js": "/marianmwang-site/static/js/2.6c4a79dc.chunk.js",
-    "static/js/2.6c4a79dc.chunk.js.map": "/marianmwang-site/static/js/2.6c4a79dc.chunk.js.map",
-    "static/js/3.8f3cd084.chunk.js": "/marianmwang-site/static/js/3.8f3cd084.chunk.js",
-    "static/js/3.8f3cd084.chunk.js.map": "/marianmwang-site/static/js/3.8f3cd084.chunk.js.map",
+    "main.css": "/marianmwang-site/static/css/main.3027f99c.chunk.css",
+    "main.js": "/marianmwang-site/static/js/main.bb003e67.chunk.js",
+    "main.js.map": "/marianmwang-site/static/js/main.bb003e67.chunk.js.map",
+    "runtime-main.js": "/marianmwang-site/static/js/runtime-main.060f1dae.js",
+    "runtime-main.js.map": "/marianmwang-site/static/js/runtime-main.060f1dae.js.map",
+    "static/js/2.ce2b561e.chunk.js": "/marianmwang-site/static/js/2.ce2b561e.chunk.js",
+    "static/js/2.ce2b561e.chunk.js.map": "/marianmwang-site/static/js/2.ce2b561e.chunk.js.map",
+    "static/js/3.756bc70c.chunk.js": "/marianmwang-site/static/js/3.756bc70c.chunk.js",
+    "static/js/3.756bc70c.chunk.js.map": "/marianmwang-site/static/js/3.756bc70c.chunk.js.map",
     "index.html": "/marianmwang-site/index.html",
-    "precache-manifest.569c4ef9b5423504fd10fa2d9570a43b.js": "/marianmwang-site/precache-manifest.569c4ef9b5423504fd10fa2d9570a43b.js",
+    "precache-manifest.2c306fc2cc1551364a586f082ac5e9aa.js": "/marianmwang-site/precache-manifest.2c306fc2cc1551364a586f082ac5e9aa.js",
     "service-worker.js": "/marianmwang-site/service-worker.js",
-    "static/css/main.e2e67417.chunk.css.map": "/marianmwang-site/static/css/main.e2e67417.chunk.css.map",
-    "static/js/2.6c4a79dc.chunk.js.LICENSE.txt": "/marianmwang-site/static/js/2.6c4a79dc.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/marianmwang-site/static/media/logo.06e73328.svg"
+    "static/css/main.3027f99c.chunk.css.map": "/marianmwang-site/static/css/main.3027f99c.chunk.css.map",
+    "static/js/2.ce2b561e.chunk.js.LICENSE.txt": "/marianmwang-site/static/js/2.ce2b561e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.efcc3eb5.js",
-    "static/js/2.6c4a79dc.chunk.js",
-    "static/css/main.e2e67417.chunk.css",
-    "static/js/main.c252b137.chunk.js"
+    "static/js/runtime-main.060f1dae.js",
+    "static/js/2.ce2b561e.chunk.js",
+    "static/css/main.3027f99c.chunk.css",
+    "static/js/main.bb003e67.chunk.js"
   ]
 }

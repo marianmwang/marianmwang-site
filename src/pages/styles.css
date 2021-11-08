@@ -121,8 +121,21 @@ ul {
   margin-block-end: 0;
 }
 
+#collapse-items {
+  display: inline;
+}
+
 #collapse-navbar {
   display: none;
+}
+
+.about-list{
+  margin: 0;
+  padding-inline-start: 2em;
+}
+
+.about-list > li {
+  list-style: square;
 }
 
 @media screen and (max-width: 60em) {
@@ -131,7 +144,7 @@ ul {
     width: auto;
     margin-right: 1em;
     max-height: 15em;
-    min-width: none;
+    min-width: 11em;
   }
 
   .content {

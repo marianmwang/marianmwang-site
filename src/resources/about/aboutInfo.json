@@ -1,0 +1,12 @@
+{
+  "selfie": {
+    "desc": "me (on a good day)",
+    "image": "me.jpg",
+    "altText": "picture of marian"
+  },
+  "family": {
+      "desc": "my older sister lilian (left) and i (right)",
+      "image": "lilianandi.jpg",
+      "altText": "picture of two girls"
+  }
+}

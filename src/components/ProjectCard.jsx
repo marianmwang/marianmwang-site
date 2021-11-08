@@ -1,5 +1,5 @@
 import React from "react";
-import './projectCard.css';
+import "./projectCard.css";
 
 const ProjectButton = ({ name, url }) => {
   if (url)
@@ -15,11 +15,17 @@ const ProjectButton = ({ name, url }) => {
   }
 };
 
-const ProjectCard = ({ name, description, links }) => {
+const ProjectCard = ({ name, description, links, image, altText }) => {
   return (
     <div>
       <header className="project-title">{name}</header>
       <div className="project-container">
+        <div className="centered">
+          <img
+            className="project-image"
+            src={require(`../resources/images/${image}`)} alt={altText}
+          ></img>
+        </div>
         <p className="project-desc">{description}</p>
         <br></br>
         {links.map((link, i) => {

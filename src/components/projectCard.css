@@ -7,7 +7,7 @@
     border-width: 2px;
     padding: 0.5em;
     border-radius: 1em;
-    border: 0.1rem solid #6c9dda;
+    border: 0.1em solid #6c9dda;
     background-color: #fff;
     color: #18375e;
   }
@@ -44,7 +44,22 @@
   
   .project-button:hover {
       background-color: #6c9dda;
-      cursor: pointer;
-      
+      cursor: pointer; 
   }
-  
+
+  .project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+    max-height: 10em;
+    border-radius: 1em;
+    object-fit: cover;
+    border: 0.2em solid #6c9dda;
+    margin: 0.5em;
+  }
+
+  .centered {
+    justify-content: center;
+    display: flex;
+  }

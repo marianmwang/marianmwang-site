@@ -41,7 +41,11 @@ const Layout = ({ children }) => {
         <div className="sidenav-section">
           <ul className="inline-list">
             <li>
-              <a href="https://drive.google.com/file/d/1RyUoUS1dxxd8SvV8xkZ0FKMLNhwFXgW4/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1RyUoUS1dxxd8SvV8xkZ0FKMLNhwFXgW4/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faFile} />
               </a>
             </li>
@@ -51,7 +55,11 @@ const Layout = ({ children }) => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/marianmwang">
+              <a
+                href="https://github.com/marianmwang"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>

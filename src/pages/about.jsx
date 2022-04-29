@@ -14,20 +14,13 @@ const About = ({ image, altText }) => {
         about new technologies, and i'm always looking for ways to improve our
         everyday lives.
       </p>
-      <p>i'm currently looking for opportunities in:</p>
-      <ul className="about-list">
-        <li>software development</li>
-        <li>machine learning</li>
-        <li>computer science education</li>
-        <li>ui/ux design</li>
-        <li>and more!</li>
-      </ul>
+      <p>i'm currently looking for opportunities in software development for the fall 2022 season.</p>
       <p style={{ marginTop: 0.5 + `em` }}>
         check out my resume for the most up to date information, and contact me
         by email if interested.
       </p>
       <p>
-        in my free time, i enjoy watching anime and korean dramas, digital art,
+        in my free time, i enjoy watching anime and korean dramas, doing digital art,
         and eating delicious food with friends.
       </p>
     </div>

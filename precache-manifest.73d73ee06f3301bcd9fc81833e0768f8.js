@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b5d7333479b7e356749a46ceea1bc8b",
+    "revision": "28df2ef53e6f8e16acb8b4e318fabc49",
     "url": "/marianmwang-site/index.html"
   },
   {
-    "revision": "7a2f152d498b083fc206",
-    "url": "/marianmwang-site/static/css/main.51a7e6de.chunk.css"
+    "revision": "66466d9c3b2977e6973b",
+    "url": "/marianmwang-site/static/css/main.843b7a49.chunk.css"
   },
   {
-    "revision": "257856e844c68f7179fa",
-    "url": "/marianmwang-site/static/js/2.3af156f0.chunk.js"
+    "revision": "135a0927e47e246a6371",
+    "url": "/marianmwang-site/static/js/2.5e154496.chunk.js"
   },
   {
     "revision": "f40c7cf6162fa5f7c0e96bdfea2abc2d",
-    "url": "/marianmwang-site/static/js/2.3af156f0.chunk.js.LICENSE.txt"
+    "url": "/marianmwang-site/static/js/2.5e154496.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d23fdfc80d73b04e31bf",
-    "url": "/marianmwang-site/static/js/3.a4a07359.chunk.js"
+    "revision": "9aa96dc3d51f95dfa685",
+    "url": "/marianmwang-site/static/js/3.3350ba89.chunk.js"
   },
   {
-    "revision": "7a2f152d498b083fc206",
-    "url": "/marianmwang-site/static/js/main.21830095.chunk.js"
+    "revision": "66466d9c3b2977e6973b",
+    "url": "/marianmwang-site/static/js/main.7339cb25.chunk.js"
   },
   {
-    "revision": "6163105467d6fffd1ce9",
-    "url": "/marianmwang-site/static/js/runtime-main.5a21fc05.js"
+    "revision": "2d74def2345217e000ec",
+    "url": "/marianmwang-site/static/js/runtime-main.dddf7469.js"
   },
   {
     "revision": "487e0bdfd1e0a833da0abdd0d75353c1",

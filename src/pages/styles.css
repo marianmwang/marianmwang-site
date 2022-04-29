@@ -6,7 +6,7 @@
 .container {
   margin: 1em;
   max-width: 39rem;
-  font-family: Calibri;
+  font-family: Calibri, sans-serif;
   padding: 2em;
   border-radius: 1em;
   border: 0.1rem solid #6c9dda;

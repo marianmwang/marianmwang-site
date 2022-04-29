@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28df2ef53e6f8e16acb8b4e318fabc49",
+    "revision": "dfc941344e97b4dca488ff5f01d95634",
     "url": "/marianmwang-site/index.html"
   },
   {

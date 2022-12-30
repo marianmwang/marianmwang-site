@@ -5,6 +5,7 @@ import "@fontsource/metropolis/300.css";
 import "@fontsource/metropolis/400.css";
 import "@fontsource/metropolis/500.css";
 import "@fontsource/metropolis/700.css";
+import "@fontsource/eb-garamond/400.css";
 import Header from "./components/header";
 import Description from "./components/description";
 
@@ -27,6 +28,7 @@ const THEME = createTheme({
     secondary: { main: "#5C6D70" },
     text: {
       primary: "#FFFBFC",
+      secondary: "#5C6D70"
     },
   },
 });
@@ -39,8 +41,8 @@ function App() {
           border="1px solid #5C6D70"
           borderRadius="5px"
           padding="2em"
-          width="50%"
           alignSelf="center"
+          className="responsiveBox"
         >
           <Header />
           <Description />

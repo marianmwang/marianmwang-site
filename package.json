@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/eb-garamond": "^4.5.10",
     "@fontsource/metropolis": "^4.5.3",
     "@fortawesome/fontawesome-svg-core": "^1.3.0-beta2",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",

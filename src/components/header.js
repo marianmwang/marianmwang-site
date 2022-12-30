@@ -6,7 +6,7 @@ function Header() {
   return (
     <Box
       sx={{
-        borderBottom: "0.5px solid #FFFBFC",
+        borderBottom: "0.5px solid #5C6D70",
         paddingBottom: "1em",
         marginBottom: "1em",
       }}
@@ -15,7 +15,7 @@ function Header() {
         color="textPrimary"
         fontSize="3em"
         fontStyle="italic"
-        letterSpacing="0.15em"
+        letterSpacing="0.25em"
         fontFamily='"EB Garamond"'
         lineHeight="1em"
         marginBottom="0.2em"
@@ -30,7 +30,7 @@ function Header() {
         fontFamily='"EB Garamond"'
         marginLeft="2em"
       >
-        Software engineer & Undergrad at the University of Toronto.
+        SWE Intern & CS @ UofT.
       </Typography>
       <Links />
     </Box>

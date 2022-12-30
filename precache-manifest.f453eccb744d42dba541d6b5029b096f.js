@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a1f01c3be78d8746a91a0e64e6cab3b",
+    "revision": "3f4e85d58cb3bb6af2e33cd4a95b83a6",
     "url": "/marianmwang-site/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marianmwang-site/static/css/2.262c1a48.chunk.css"
   },
   {
-    "revision": "5508b4c2805e8b6ab956",
+    "revision": "2b0098e75edde2306cb3",
     "url": "/marianmwang-site/static/css/main.04d45715.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marianmwang-site/static/js/2.67db4486.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5508b4c2805e8b6ab956",
-    "url": "/marianmwang-site/static/js/main.4753adc4.chunk.js"
+    "revision": "2b0098e75edde2306cb3",
+    "url": "/marianmwang-site/static/js/main.43eaf187.chunk.js"
   },
   {
     "revision": "ce66959d064da5e5c964",

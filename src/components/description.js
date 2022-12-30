@@ -57,7 +57,12 @@ function Description() {
         </StyledLink>
         , or climbing rocks at my local bouldering gym.
       </StyledText>
-      <StyledText>Let's chat! ☕️</StyledText>
+      <StyledText>
+        Let's chat!{" "}
+        <span role="img" aria-label="coffee icon">
+          ☕️
+        </span>
+      </StyledText>
     </>
   );
 }

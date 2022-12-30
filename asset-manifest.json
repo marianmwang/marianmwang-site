@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/marianmwang-site/static/css/main.85f83bd6.chunk.css",
-    "main.js": "/marianmwang-site/static/js/main.074b3a57.chunk.js",
-    "main.js.map": "/marianmwang-site/static/js/main.074b3a57.chunk.js.map",
+    "main.css": "/marianmwang-site/static/css/main.04d45715.chunk.css",
+    "main.js": "/marianmwang-site/static/js/main.4753adc4.chunk.js",
+    "main.js.map": "/marianmwang-site/static/js/main.4753adc4.chunk.js.map",
     "runtime-main.js": "/marianmwang-site/static/js/runtime-main.8c78aed3.js",
     "runtime-main.js.map": "/marianmwang-site/static/js/runtime-main.8c78aed3.js.map",
-    "static/css/2.0bd13bfd.chunk.css": "/marianmwang-site/static/css/2.0bd13bfd.chunk.css",
-    "static/js/2.f45117a3.chunk.js": "/marianmwang-site/static/js/2.f45117a3.chunk.js",
-    "static/js/2.f45117a3.chunk.js.map": "/marianmwang-site/static/js/2.f45117a3.chunk.js.map",
+    "static/css/2.262c1a48.chunk.css": "/marianmwang-site/static/css/2.262c1a48.chunk.css",
+    "static/js/2.67db4486.chunk.js": "/marianmwang-site/static/js/2.67db4486.chunk.js",
+    "static/js/2.67db4486.chunk.js.map": "/marianmwang-site/static/js/2.67db4486.chunk.js.map",
     "index.html": "/marianmwang-site/index.html",
-    "precache-manifest.176b56c4c350abe1957d1a1c0ca09847.js": "/marianmwang-site/precache-manifest.176b56c4c350abe1957d1a1c0ca09847.js",
+    "precache-manifest.ac9672cbb1111a0556d2f3094059135c.js": "/marianmwang-site/precache-manifest.ac9672cbb1111a0556d2f3094059135c.js",
     "service-worker.js": "/marianmwang-site/service-worker.js",
-    "static/css/2.0bd13bfd.chunk.css.map": "/marianmwang-site/static/css/2.0bd13bfd.chunk.css.map",
-    "static/css/main.85f83bd6.chunk.css.map": "/marianmwang-site/static/css/main.85f83bd6.chunk.css.map",
-    "static/js/2.f45117a3.chunk.js.LICENSE.txt": "/marianmwang-site/static/js/2.f45117a3.chunk.js.LICENSE.txt",
-    "static/media/300.css": "/marianmwang-site/static/media/metropolis-all-300-normal.f193bc29.woff2",
+    "static/css/2.262c1a48.chunk.css.map": "/marianmwang-site/static/css/2.262c1a48.chunk.css.map",
+    "static/css/main.04d45715.chunk.css.map": "/marianmwang-site/static/css/main.04d45715.chunk.css.map",
+    "static/js/2.67db4486.chunk.js.LICENSE.txt": "/marianmwang-site/static/js/2.67db4486.chunk.js.LICENSE.txt",
     "static/media/400.css": "/marianmwang-site/static/media/metropolis-all-400-normal.7b9a798c.woff2",
+    "static/media/300.css": "/marianmwang-site/static/media/metropolis-all-300-normal.f193bc29.woff2",
     "static/media/500.css": "/marianmwang-site/static/media/metropolis-all-500-normal.59b8a9b2.woff",
     "static/media/700.css": "/marianmwang-site/static/media/metropolis-all-700-normal.dc6926c3.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.8c78aed3.js",
-    "static/css/2.0bd13bfd.chunk.css",
-    "static/js/2.f45117a3.chunk.js",
-    "static/css/main.85f83bd6.chunk.css",
-    "static/js/main.074b3a57.chunk.js"
+    "static/css/2.262c1a48.chunk.css",
+    "static/js/2.67db4486.chunk.js",
+    "static/css/main.04d45715.chunk.css",
+    "static/js/main.4753adc4.chunk.js"
   ]
 }

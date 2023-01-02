@@ -28,7 +28,7 @@ const THEME = createTheme({
     secondary: { main: "#5C6D70" },
     text: {
       primary: "#FFFBFC",
-      secondary: "#5C6D70"
+      secondary: "#5C6D70",
     },
   },
 });
@@ -36,7 +36,7 @@ const THEME = createTheme({
 function App() {
   return (
     <ThemeProvider theme={THEME}>
-      <Box display="flex" justifyContent="center" height={window.screen.height}>
+      <Box display="flex" justifyContent="center" height="50em">
         <Box
           border="1px solid #5C6D70"
           borderRadius="5px"

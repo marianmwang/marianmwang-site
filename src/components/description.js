@@ -31,17 +31,24 @@ function StyledLink({ href, children }) {
 function Description() {
   return (
     <>
-      <StyledText>Hey there! I'm Marian.</StyledText>
       <StyledText>
-        I'm currently on a break, getting ready to start my internship at{" "}
-        <StyledLink href="https://www.brilliant.tech/">Khan Academy</StyledLink>{" "}
-        in Mountain View, CA this summer. Previously, I interned at{" "}
-        <StyledLink href="https://www.twitter.com/">Twitter</StyledLink>,{" "}
-        <StyledLink href="https://www.amazon.com/">Amazon</StyledLink>, and{" "}
-        <StyledLink href="https://www.amazon.com/">Brilliant.tech</StyledLink>.
+        Hey there! I'm Marian, pronounced like Marian the Librarian.
       </StyledText>
       <StyledText>
-        In my free time, you can find me enjoying coffee and a{" "}
+        This summer, I'm interning at{" "}
+        <StyledLink href="https://www.khanacademy.org/about/our-interns">
+          Khan Academy
+        </StyledLink>{" "}
+        in Mountain View, CA. Previously, I interned at{" "}
+        <StyledLink href="https://www.twitter.com/">Twitter</StyledLink>,{" "}
+        <StyledLink href="https://www.amazon.com/">Amazon</StyledLink>, and{" "}
+        <StyledLink href="https://www.brilliant.tech/">
+          Brilliant.tech
+        </StyledLink>
+        .
+      </StyledText>
+      <StyledText>
+        In my free time, you can find me enjoying Philz and a{" "}
         <StyledLink href="https://marianmwang.notion.site/media-list-bb1a75b309b3413bbce4d038be6c77f8">
           good book
         </StyledLink>
